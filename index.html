@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Grocery</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <script src="js/script.js"></script>
 </head>
 <body>
@@ -29,7 +29,20 @@
         <div id="content" class="content">
             <div id="content-left" class="content-left">
                 <div id="content-image" class="content-image">
-                    <img src="asset/image.jpg" class="image" alt="slider image">
+                    <div class="slideshow-container">
+                        <div class="slide fade">
+                            <img src="asset/gambar1.jpeg" class="image" alt="Slider Image 1">
+                        </div>
+                        <div class="slide fade">
+                            <img src="asset/gambar2.jpeg" class="image" alt="Slider Image 2">
+                        </div>
+                        <div class="slide fade">
+                            <img src="asset/gambar3.jpeg" class="image" alt="Slider Image 3">
+                        </div>
+                
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
                     <span>Fresh everyday</span>
                 </div>
             </div>
